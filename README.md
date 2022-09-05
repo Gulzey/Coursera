@@ -1,8 +1,2 @@
-DOCTYPE html>
-<html>
-<head>
-<title>Hello Coursera!k</title>
-</head>
-<body>
-</body>
-</html>
+# COURSERA
+This is for my coursera and is my local repository
