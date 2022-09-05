@@ -1,2 +1,3 @@
-# COURSERA
-This is for my coursera and is my local repository
+# Coursera
+Gulzeys repository for coursera
+
