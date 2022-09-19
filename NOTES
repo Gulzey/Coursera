@@ -1,2 +1,5 @@
 git pull --rebase origin main
 git push origin main
+
+browser-sync start --server --directory --files "
+*"

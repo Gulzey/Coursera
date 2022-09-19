@@ -3,8 +3,13 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     color: red;
 }
- /* Comment */
-@media (max-width: 767px) {
+
+.container-fluid {
+    display: grid;
+  }
+
+ /* PHONE MODE ONLY */
+@media screen and (max-width: 767px) {
     .col-lg-1, .col-lg-2, .col-lg-3
  {
  float: left;
@@ -12,46 +17,27 @@ h1 {
  }
  .col-lg-1 {
     width: 100%;
-    column-width: 100%;
+    
  }
 
 .col-lg-2 {
     width: 100%;
-    column-width: 100%;
+    
 }
 .col-lg-3 {
     width: 100%;
-    column-width: 100%;
+    
  }
 }
-/* Comment */
+/* PHONE MODE ONLY */
 
-/* Comment */
-@media (min-width: 768px) and (max-width: 991px) {
-    .col-lg-1, .col-lg-2, .col-lg-3
- {
- float: left;
- border: 1px solid green;
- }
- .col-lg-1 {
-    width: 50%;
-    column-width: 33.3%;
- }
+/* TABLET MODE ONLY */
 
-.col-lg-2 {
-    width: 50%;
-    column-width: 33.3%;
-}
-.col-lg-3 {
-    width: 100%;
-    column-width: 33.3%;
- }
-}
-/* Comment */
+/* TABLET MODE ONLY */
 
 
-/* Comment */
-@media (min-width: 992px) {
+/* DESKTOP MODE ONLY */
+@media screen and (min-width: 992px) {
     .col-lg-1, .col-lg-2, .col-lg-3
  {
  float: left;
@@ -59,19 +45,19 @@ h1 {
  }
  .col-lg-1 {
     width: 33%;
-    column-width: 33.3%;
+   
  }
 
 .col-lg-2 {
     width: 33%;
-    column-width: 33.3%;
+    
 }
 .col-lg-3 {
     width: 33%;
-    column-width: 33.3%;
+  
  }
 }
-/* Comment */
+/* DESKTOP MODE ONLY */
 
 .Head1 {
     position: relative;
